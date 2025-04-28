@@ -55,7 +55,7 @@ if uploaded_file:
                 mime='text/csv'
             )
 
-            st.button("Reset", on_click=lambda: st.experimental_rerun())
+
 
     except Exception as e:
         st.error(f"An error occurred: {e}")
